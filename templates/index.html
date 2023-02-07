@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fish Market Weight Prediction </title>
+    <style>
+        body{
+            background-image: url(https://images-global.nhst.tech/image/ajJPWUNNL0tyR0JkQmxrVW8zSlJxcENBUFJybW1YR3hrL1dWWmxIT0FnTT0=/nhst/binary/73d48497cf6420968e29c59c39ea8db2?image_version=640);
+            background-size: cover;
+           
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(238, 8, 8);">
+    
+
+    <h1> Fish Market Weight Prediction </h1>
+    <form method="GET" action="/prediction">
+
+        <label>Length1:</label>
+        <input type = "text" name = "Length1">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Length2:</label>
+        <input type = "text" name = "Length2">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Length3:</label>
+        <input type = "text" name = "Length3">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Height:</label>
+        <input type = "text" name = "Height">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Width:</label>
+        <input type = "text" name = "Width">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Species:</label>
+        <select name = "Species">
+            <option value = "Bream">Bream</option>
+            <option value = "Parkki">Parkki</option>
+            <option value = "Perch">Perch</option>
+            <option value = "Pike">Pike</option>
+            <option value = "Roach">Roach</option>
+            <option value = "Smelt">Smelt</option>
+            <option value = "Whitefish">Whitefish</option>
+        </select>
+
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <h4><strong>Your Fish Weight will be <b> {{prediction}} Kg.</b> Only </strong></h4>
+
+
+    </form>
+
+
+</body>
+</html>
